@@ -48,6 +48,6 @@ On Day 2 of the project, the backend API was developed using **FastAPI** with a 
 4. Start the FastAPI server:
    ```bash
    uvicorn app.main:app --reload
-5. Open your browser and navigate to:
+5. Open your browser and navigate to: <br/>
    API docs: http://127.0.0.1:8000/docs   <br/>
    Root endpoint: http://127.0.0.1:8000/
