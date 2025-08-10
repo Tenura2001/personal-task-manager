@@ -41,3 +41,13 @@ On Day 2 of the project, the backend API was developed using **FastAPI** with a 
 1. Navigate to the backend folder:
    ```bash
    cd backend
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Make sure MongoDB is running locally or update your connection string in app/database.py to use MongoDB Atlas.
+4. Start the FastAPI server:
+   ```bash
+   uvicorn app.main:app --reload
+5. Open your browser and navigate to:
+   API docs: http://127.0.0.1:8000/docs   <br/>
+   Root endpoint: http://127.0.0.1:8000/
